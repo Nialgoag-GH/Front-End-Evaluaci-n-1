@@ -4,31 +4,40 @@
     box-sizing: border-box;
 }
 
-.navbar{
+.background_color{
+    background-color: rgb(216, 214, 214);
+}
+
+.header{
     display: flex;
-    font-size: 30px;
     justify-content: space-between;
     height: 80px;
     background: #012e7b
 }
 
-.logo{
+.header_div_1{
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 150px;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo{
+    width: 120px;
     height: 100%;
-    font-size: 50px;
-    color:white;
+}
+
+.name{
+  color: white;  
+  font-size: 30px;
 }
 
 .navlinks{
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 40px;
     font-size: 20px;
-    margin: 20px;
+    margin-right: 20px;
 }
 
 .navlinks a{
@@ -41,33 +50,25 @@
     transition: 0.3s;
 }
 
-.nombre1 {
+.section_1{
+    background: #4a83ec;
     display: flex;
-    justify-content: right;
-    align-items: center;
-    width: 50px;
-    height: 100%;
-    font-size: 35px;
-    color:white;
-    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 30px;
+    gap: 30px;
 }
 
-.box1 {
+.section_1_div_1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    width: auto;
-    height: auto;
     gap: 20px;
-    background: #4a83ec;
     color: white;
-    font-size: 20px;
-    padding: 50px;
-}
-
-.background_color {
-    background-color: rgb(216, 214, 214);
+    font-size: 25px;
 }
 
 .box2 {
