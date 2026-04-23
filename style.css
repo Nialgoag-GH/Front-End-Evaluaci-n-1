@@ -4,35 +4,64 @@
     box-sizing: border-box;
 }
 
-.body{
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    
+}
+
+.libre-baskerville-font {
+  font-family: "Libre Baskerville", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.google-sans-font {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+
+body{
     background-color: rgb(231, 229, 229);
 }
 
-.header{
+header{
     display: flex;
     justify-content: space-between;
     height: 80px;
     background: #012e7b
 }
 
-.header_div_1{
+header div{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
+    padding: 10px;
 }
 
-.logo{
-    width: 120px;
+header img{
+    width: auto;
     height: 100%;
+    border-radius: 5px;
 }
 
-.name{
+header p{
   color: white;  
   font-size: 30px;
 }
 
-.navlinks{
+header nav{
     display: flex;
     align-items: center;
     gap: 40px;
@@ -40,26 +69,39 @@
     margin-right: 20px;
 }
 
-.navlinks a{
+header nav a{
     text-decoration: none;
     color:white;
 }
 
-.navlinks a:hover{
+header nav a:hover{
     color: rgb(238, 235, 49);
     transition: 0.3s;
 }
 
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    gap: 30px;
+    font-size: 25px;
+}
 
 .section_1{
     background: #4a83ec;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: auto;
-    height: auto;
-    padding: 50px;
+    align-items: center;
     gap: 30px;
+    height: auto;
+    width: 100%;
+    color: white;
+    padding: 30px;
 }
 
 .section_1_div{
@@ -70,6 +112,12 @@
     gap: 20px;
     color: white;
     font-size: 25px;
+}
+
+blockquote{
+    background-color: rgb(255, 233, 191);
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .section_2 {
@@ -218,6 +266,12 @@ gap: 50px;
 .grid_text {
     text-align: left !important;
     padding: 20px !important;
+}
+
+.grid a{
+    text-decoration: none;
+    color: #4a83ec;
+    font-weight: bold;
 }
 
 .section_4{
