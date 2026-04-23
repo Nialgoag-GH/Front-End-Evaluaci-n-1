@@ -308,3 +308,28 @@ gap: 50px;
     gap: 10px;
     align-items: center;
 }
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    padding: 50px;
+    background: #012e7b;
+    gap: 30px;
+}
+
+.footer img{
+    height: 70px;
+    width: auto;
+    border-radius: 30%;
+}
+
+.footer_div_1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    gap: 30px;
+}
