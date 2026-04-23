@@ -308,19 +308,19 @@ gap: 50px;
 }
 
 .form input{
-    padding: 10px;
-    border-radius: 5px;
+    padding: 20px;
+    border-radius: 15px;
 }
 
 .form select{
-    padding: 10px;
-    border-radius: 5px;
+    padding: 20px;
+    border-radius: 15px;
     background-color: white;
 }
 
 .form textarea{
-    padding: 10px;
-    border-radius: 5px;
+    padding: 20px;
+    border-radius: 15px;
 }
 
 .form button{
@@ -387,3 +387,4 @@ gap: 50px;
     font-size: 30px;
     gap: 30px;
 }
+
