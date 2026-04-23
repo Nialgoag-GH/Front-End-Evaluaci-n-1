@@ -50,6 +50,7 @@
     transition: 0.3s;
 }
 
+
 .section_1{
     background: #4a83ec;
     display: flex;
@@ -110,6 +111,8 @@ gap: 50px;
     font-size: 25px;
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .table_1{
@@ -161,4 +164,58 @@ gap: 50px;
     border-radius: 20px;
     margin-top: 20px;
     line-height: 2;
+}
+
+.section_4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.6;
+    font-size: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 1.6;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
+  height: auto;
+  width: 100%;
+  gap: 20px;
+  
+}
+
+.grid div{
+  font-size: 25px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.grid img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.grid figcaption{
+    font-size: 20px;
+    color: gray;
+    text-align: left;
+}
+
+.grid figure{
+    background-color: rgb(152, 251, 251);
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.grid_text {
+    text-align: left !important;
+    padding: 20px !important;
 }
