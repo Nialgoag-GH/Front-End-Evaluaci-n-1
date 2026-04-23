@@ -33,7 +33,7 @@
         </section>
         <section id="about" class="section_2">
             <div>
-                <h2 style="font-size: 50px; color: #012e7b;">
+                <h2 class="title">
                     <b>Sobre Mí</b>
                 </h2>
                 <p>Conóceme un poco más</p>
@@ -65,9 +65,7 @@
         </section>
         <section id="skill" class="section_3">
             <div>
-                <h3 style="font-size: 50px; color: #012e7b;">
-                    <b>Habilidades</b>
-                </h3>
+                <h2 class="title"><b>Habilidades</b></h2>
                 <p style="margin-bottom: 20px;">Tecnologías y Competencias</p>
             </div>
             <table class="table_1">
@@ -134,7 +132,7 @@
             </article>
         </section>
         <section id="project" class="section_4">
-            <h4 style="font-size: 50px; color: #012e7b;"><b>Proyectos</b></h4>
+            <h2 class="title"><b>Proyectos</b></h2>
             <p>Algunos de mis trabajos</p>
             <div class="grid">
                 <div>
@@ -203,6 +201,57 @@
                         <a href="https://github.com/Nialgoag-GH/Front-End-Evaluaci-n-1">Ver Repositorio -></a>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="section_4">
+            <h2 class="title"><b>Contacto</b></h2>
+            <p>Envíame un mensaje</p>
+            <div style="display: flex;flex-direction: row; gap: 80px; padding: 50px;">
+                <form class="form">
+                    <div style="display: flex; flex-direction: row; gap: 20px;">
+                        <div style="display: flex; flex-direction: column;">
+                            <label for="nombre">Nombre Completo</label>
+                            <input type="text" id="nombre" name="nombre"
+                            placeholder="Tu nombre">
+                        </div>
+                        <div class="form_div">
+                            <label for="email">Correo Electronico</label>
+                            <input type="email" id="email" name="email"
+                            placeholder="tu@email.com">
+                        </div>
+                    </div>
+                    <div class="form_div">
+                        <label for="asunto">Asunto</label>
+                        <select name="asunto" id="asunto" placeholder="Selecciona un asunto">
+                            <option value="" disabled selected hidden style="color: grey;">Selecciona un asunto</option>
+                            <option value="asunto_1">Asunto 1</option>
+                            <option value="asunto_2">Asunto 2</option>
+                            <option value="asunto_3">Asunto 3</option>
+                            <option value="asunto_4">Asunto 4</option>
+                            <option value="asunto_5">Asunto 5</option>
+                        </select>
+                    </div>
+                    <div class="form_div">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+                <aside class="form_aside">
+                    <p><b> Información de contacto</b></p>
+                    <div class="contact_info_div">
+                        <img src="./assets/slun.webp">nialgoag@inacapmail.cl
+                    </div>
+                    <div class="contact_info_div">
+                        <img src="./assets/slun.webp">Talcahuano, Chile
+                    </div>
+                    <div class="contact_info_div">
+                        <img src="./assets/slun.webp">+56 9 4290 5445
+                    </div>
+                    <div class="contact_info_div">
+                        <img src="./assets/slun.webp"><a href="https://github.com/Nialgoag-GH" style="text-decoration: none;">github.com/Nialgoag-GH</a>
+                    </div>               
+                </aside>
             </div>
         </section>
     </main>
